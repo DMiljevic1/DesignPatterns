@@ -20,7 +20,10 @@ public class GameSaveManager
 
     public string Load()
     {
-        Console.WriteLine($"Game Loaded: {SaveData}");
+        if(String.IsNullOrWhiteSpace(SaveData))
+            Console.WriteLine("No saved data!");
+        else
+            Console.WriteLine($"Game Loaded: {SaveData}");
         return SaveData;
     }
 }
