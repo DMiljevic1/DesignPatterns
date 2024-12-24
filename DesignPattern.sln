@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.ObserverPatte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.DecoratorPattern", "DesignPattern.DecoratorPattern\DesignPattern.DecoratorPattern.csproj", "{5301A20B-882F-4470-AE3F-29B265E7935E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.FactoryPattern", "DesignPattern.FactoryPattern\DesignPattern.FactoryPattern.csproj", "{06D429DF-B5F6-4719-94F0-DF567763CF3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.FactoryPattern", "DesignPattern.FactoryPattern\DesignPattern.FactoryPattern.csproj", "{06D429DF-B5F6-4719-94F0-DF567763CF3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.SingletonPattern", "DesignPattern.SingletonPattern\DesignPattern.SingletonPattern.csproj", "{375481F1-44E6-4FBD-B46E-E08B0EDA8598}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.SingletonPattern", "DesignPattern.SingletonPattern\DesignPattern.SingletonPattern.csproj", "{375481F1-44E6-4FBD-B46E-E08B0EDA8598}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CommandPattern", "DesignPattern.CommandPattern\DesignPattern.CommandPattern.csproj", "{5B5BB132-4C84-4AB4-9F73-45DB0B44224A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.CommandPattern", "DesignPattern.CommandPattern\DesignPattern.CommandPattern.csproj", "{5B5BB132-4C84-4AB4-9F73-45DB0B44224A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.AdapterPattern", "DesignPattern.AdapterPattern\DesignPattern.AdapterPattern.csproj", "{32BA983D-FCF7-46F1-B4D8-3127EF0033A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{5B5BB132-4C84-4AB4-9F73-45DB0B44224A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B5BB132-4C84-4AB4-9F73-45DB0B44224A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B5BB132-4C84-4AB4-9F73-45DB0B44224A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32BA983D-FCF7-46F1-B4D8-3127EF0033A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BA983D-FCF7-46F1-B4D8-3127EF0033A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BA983D-FCF7-46F1-B4D8-3127EF0033A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BA983D-FCF7-46F1-B4D8-3127EF0033A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
